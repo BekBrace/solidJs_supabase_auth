@@ -6,7 +6,7 @@ Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnp
 
 ![image](https://github.com/BekBrace/SolidJs_Supabase_Auth/assets/60483846/ba8d4d76-9ef2-4b35-a164-ad8a5e2ac473)
 
-''' Bek Brace YouTube Channel ```
+# Bek Brace YouTube Channel
 
 
 
