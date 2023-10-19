@@ -1,0 +1,96 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: rgb(229, 231, 235);
+}
+
+h3 {
+	font-size: 1.5rem;
+	font-weight: 900;
+	color: rgb(55, 65, 81);
+    text-align: center;
+}
+
+form {
+	padding: 48px;
+	margin-top: 2rem;
+	width: 370px;
+	height: 400px;
+	background-color: #fff;
+	border-radius: 4px;
+	box-shadow: 4px 4px 7px lightgray;
+}
+
+
+label {
+	text-transform: capitalize;
+	margin-top: 1.2rem;
+    margin-bottom: 0.3rem;
+	font-size: 0.8rem;
+    letter-spacing: 0.5px;
+	color: rgb(55, 65, 81);
+}
+
+input {
+	width: 100%;
+	line-height: 2rem;
+	background-color: rgb(229, 231, 235);
+	border: none;
+    padding: 0.375rem 0.75rem;
+	border-radius: 4px;
+    margin: 0.2rem 0 1rem;
+}
+
+button {
+	margin-top: 1.2rem;
+    margin-bottom: 0.5rem;
+	width: 100%;
+	height: 3rem;
+	font-size: 0.9rem;
+	font-weight: 700;
+	color: rgb(220, 229, 247);
+	background-color: rgb(37, 99, 235);
+	border-radius: 4px;
+	border: none;
+    cursor: pointer;
+}
+
+.account-section {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-top: 1.4rem;
+}
+
+.register-section {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-top: 1.4rem;
+}
+
+.dashboard-section {
+    display: flex;
+	justify-content: center;
+	margin-top: 100px;
+	width: 100%;
+}
+
+.user-detail {
+    text-align: center;
+    width: 370px;
+}
+
+.logout {
+    background-color: #dc3545;
+}
+
+.error {
+  color: #dc3545;
+  margin: 0.5rem 0;
+  display: block;
+}
