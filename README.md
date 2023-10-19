@@ -8,30 +8,67 @@ Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnp
 
 # Bek Brace YouTube Channel
 
+# Solid.js Authentication with Supabase
 
+This repository contains a Solid.js application that demonstrates how to integrate authentication with Supabase.
 
+## Prerequisites
 
+Before you get started, make sure you have the following installed:
 
+- Node.js and npm (Node Package Manager)
+- Supabase account (for authentication and database)
 
+## Getting Started
 
+1. Clone this repository to your local machine.
 
+   ```bash
+   git clone https://github.com/your-username/solidjs-supabase-auth.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd solidjs-supabase-auth
+   ```
+3. Install project dependencies:
+ ```bash
+    npm install
+ ```
+4. Create a Supabase project and set up authentication.
 
+Sign up for a Supabase account: https://app.supabase.io/
+Create a new project and obtain the API URL and public key.
 
+5. Configure Supabase credentials:
+Create a .env.local file in the project root and add your Supabase credentials:
+```bash
+VITE_SUPABASE_URL=YOUR_SUPABASE_URL
+VITE_SUPABASE_ANON_KEY=YOUR_SUPABASE_PUBLIC_KEY
+```
+6. Start the Solid.js development server:
+   ```bash
+   npm run dev
+   ```
+   
+# Application Structure
 
+components/Register.js: Register component for user registration.
 
+components/Login.js: Login component for user authentication.
 
+components/Dashboard.js: Dashboard component for the authenticated user.
 
+Additional Resources
+For more details on Solid.js and Supabase:
 
+Solid.js documentation: https://solidjs.com/docs/latest
 
+Supabase documentation: https://supabase.io/docs
 
+Author
+Bek Brace [Amir Bekhit]
 
-
-
-
-
-
-
-# Generic Reamde.md file 
+ # Generic Reamde.md file 
 
 This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
 
