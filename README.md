@@ -2,6 +2,37 @@
 
 Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
 
+![image](https://github.com/BekBrace/SolidJs_Supabase_Auth/assets/60483846/674f8b70-7e00-486c-941e-e07e82a1fc6b)
+
+![image](https://github.com/BekBrace/SolidJs_Supabase_Auth/assets/60483846/ba8d4d76-9ef2-4b35-a164-ad8a5e2ac473)
+
+''' Bek Brace YouTube Channel ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Generic Reamde.md file 
+
 This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
 
 ```bash
