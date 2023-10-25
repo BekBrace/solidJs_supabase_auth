@@ -8,6 +8,8 @@ import { createClient } from "@supabase/supabase-js";
 const Dashboard = () => {
     const [user, setUser] = createSignal({}); // user details
     const navigate = useNavigate();
+    // createclient takes two parameters, Vie Supabase URL and Vite Supabase Key
+    // Do not forget to go to Supabase website to create your own key
     const supabase = createClient("", "");
     
     createEffect(() => {
