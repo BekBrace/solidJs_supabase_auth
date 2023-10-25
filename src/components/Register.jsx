@@ -8,7 +8,9 @@ import { createClient } from "@supabase/supabase-js";
 const Register = () => {
     const [email, setEmail] = createSignal(''); // email of the user
     const [password, setPassword] = createSignal(''); // password of the user
-    const supabase = createClient("https://jsqoravefyofyjxbmrij.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpzcW9yYXZlZnlvZnlqeGJtcmlqIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTc1NjAzMzcsImV4cCI6MjAxMzEzNjMzN30.XtlCFoTqFB0AeFTHtLVjQL-3-riy_mCEEepAfnGUBQI");
+    // createclient takes two parameters, Vie Supabase URL and Vite Supabase Key
+    // Do not forget to go to Supabase website to create your own key
+    const supabase = createClient("", "");
     const navigate = useNavigate();
 
     // Register user function
